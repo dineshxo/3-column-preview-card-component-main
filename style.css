@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+
+.container{
+    display: flex;
+    flex-direction: row; 
+   
+   margin: auto 10%;
+    
+}
+
+.box1,.box2,.box3{
+    width: 20%;
+    padding: 30px;
+}
+
+.box1{
+    background-color: hsl(31, 77%, 52%);
+    
+}
+
+.box2{
+    background-color:hsl(184, 100%, 22%) ;
+}
+
+.box3{
+    background-color: hsl(179, 100%, 13%);
+}
+
+h2,p,img{
+    margin:10%;
+}
+
+.box1 button{
+    background-color: white;
+    border-radius: 30px;
+    border: 1px solid white;
+    padding: 10px;
+}
+
+.box2 button{
+    background-color: white;
+    border-radius: 30px;
+    border: 1px solid white;
+    padding: 10px;
+}
+
+.box3 button{
+    background-color: white;
+    border-radius: 30px;
+    border: 1px solid white;
+    padding: 10px;
+}
